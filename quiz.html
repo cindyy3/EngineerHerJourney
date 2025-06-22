@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Career Quiz - EngineerHer Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/f6311cd755.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="index.html" class="logo">EngineerHer Journey</a>
+        <nav class="nav-links">
+          <a href="timeline.html">Timeline</a>
+          <a href="trailblazers.html">Trailblazers</a>
+          <a href="quiz.html" class="active">Quiz</a>
+          <a href="resources.html">Resources</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Start Screen -->
+      <div id="start-screen" class="quiz-screen active">
+        <div class="start-content">
+          <h1 class="quiz-title">Find Your Engineering Path!</h1>
+          <p class="quiz-description">
+            Take this short personality quiz to see which engineering field best matches your interests and skills!
+          </p>
+          <button id="start-quiz-btn" class="quiz-button primary">
+            Begin Quiz
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Screen -->
+      <div id="quiz-screen" class="quiz-screen">
+        <div class="quiz-content">
+          <div class="progress-container">
+            <div class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <p class="progress-text">
+              Question <span id="current-question">1</span> of <span id="total-questions">15</span>
+            </p>
+          </div>
+
+          <div class="question-card">
+            <h2 id="question-text" class="question-title"></h2>
+            <div id="answers-container" class="answers-container">
+              <!-- Answer buttons will be populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Screen -->
+      <div id="results-screen" class="quiz-screen">
+        <div class="results-content">
+          <div class="results-card">
+            <h2 class="results-subtitle">Your Ideal Engineering Career:</h2>
+            <h1 id="career-result" class="career-title"></h1>
+            <p id="career-description" class="career-description"></p>
+            <button id="try-again-btn" class="quiz-button primary">
+              Try Again
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>EngineerHer Journey</h3>
+          <p>Empowering the next generation of women in engineering.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="trailblazers.html">Trailblazers</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="resources.html">Resources</a>
+          </div>
+          <div class="footer-links-column">
+            <h4>Follow Us (coming soon!)</h4>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EngineerHer Journey. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

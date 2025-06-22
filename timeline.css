@@ -29,7 +29,8 @@
 body {
   font-family: 'Inter', sans-serif;
   color: var(--color-foreground);
-  background-color: var(--color-background);
+  /* background: linear-gradient(to bottom right, #fff5f7, #f5f3ff, #fffbeb); */
+  background: var(--color-background);
   line-height: 1.5;
   min-height: 100vh;
   display: flex;
@@ -177,6 +178,10 @@ main {
 
 .timeline-right::after {
   left: -14px;
+}
+
+.fa-brands {
+  font-size: 20px;
 }
 
 .timeline-card {

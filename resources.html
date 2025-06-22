@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources Hub - EngineerHer Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/f6311cd755.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="index.html" class="logo">EngineerHer Journey</a>
+        <nav class="nav-links">
+          <a href="timeline.html">Timeline</a>
+          <a href="trailblazers.html">Trailblazers</a>
+          <a href="quiz.html">Quiz</a>
+          <a href="resources.html" class="active">Resources</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="header-section">
+        <h1 class="page-title">Resources Hub</h1>
+        <p class="page-description">
+          Explore our curated collection of resources to support your engineering journey, from scholarships and
+          learning materials to competitions and DIY projects.
+        </p>
+      </div>
+
+      <div class="tabs-container">
+        <div class="tabs-list">
+          <button class="tab-trigger active" data-tab="scholarships">Scholarships</button>
+          <button class="tab-trigger" data-tab="opportunities">Opportunities / Contests</button>
+          <button class="tab-trigger" data-tab="learn">Learning</button>
+          <button class="tab-trigger" data-tab="diy">DIY Projects</button>
+        </div>
+
+        <div class="tab-content">
+          <div id="scholarships" class="tab-panel active">
+            <div class="resources-grid" id="scholarships-grid">
+              <!-- Resources will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <div id="opportunities" class="tab-panel">
+            <div class="resources-grid" id="opportunities-grid">
+              <!-- Resources will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <div id="learn" class="tab-panel">
+            <div class="resources-grid" id="learn-grid">
+              <!-- Resources will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <div id="diy" class="tab-panel">
+            <div class="resources-grid" id="diy-grid">
+              <!-- Resources will be populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>EngineerHer Journey</h3>
+          <p>Empowering the next generation of women in engineering.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="trailblazers.html">Trailblazers</a>
+            <a href="quiz.html">Career Quiz</a>
+            <a href="resources.html">Resources</a>
+          </div>
+          <div class="footer-links-column">
+            <h4>Follow Us (coming soon!)</h4>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EngineerHer Journey. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="resources.js"></script>
+</body>
+</html>

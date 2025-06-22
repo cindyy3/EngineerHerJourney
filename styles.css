@@ -27,6 +27,7 @@
   --color-light-pink: #ffb6c1;
   --color-amber: #fbbf24;
   --color-background: #f9fafb;
+  --color-muted: #6b7280;
 }
 
 .dark {
@@ -577,6 +578,11 @@ section {
   transition: all 0.3s ease;
 }
 
+.newsletter-input[disabled] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
 .newsletter-input:focus {
   box-shadow: 0 0 0 2px rgba(236, 72, 153, 0.3);
 }
@@ -626,9 +632,9 @@ section {
 
 .footer-links-column a {
   display: block;
-  color: var(--color-muted);
   text-decoration: none;
   margin-bottom: 0.5rem;
+  color: var(--color-muted);
   transition: color 0.3s ease;
 }
 
@@ -721,12 +727,19 @@ section {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .btn-gradient:hover {
   opacity: 0.9;
-  transform: translateY(-2px);
+}
+
+.fa-solid {
+  font-size: 24px;
+}
+
+.fa-brands {
+  font-size: 20px;
 }
 
 /* Responsive adjustments */

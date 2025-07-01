@@ -1,4 +1,3 @@
-// Resources data
 const resourcesData = {
   scholarships: [
     {

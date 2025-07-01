@@ -763,4 +763,8 @@ section {
   .section-description {
     font-size: 1rem;
   }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
 }

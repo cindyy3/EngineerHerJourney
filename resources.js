@@ -165,7 +165,7 @@ const resourcesData = {
       title: "Technovation Girls",
       source: null,
       description: "Program for girls to develop their own STEM-based solutions to real-world problems.",
-      gradeLevels: "Middle School, High School",
+      gradeLevels: "6-12",
       link: "https://technovationchallenge.org/"
     },
     {
@@ -239,11 +239,26 @@ const resourcesData = {
       "description": "Competition in which middle and high school students build apps for local congressional districts. Winners are showcased at the U.S. Capitol.",
       "gradeLevels": "6–12",
       "link": "https://www.congressionalappchallenge.us/"
+    },
+    {
+      "title": "Apple Swift Student Challenge",
+      "description": "Global challenge where students submit an original Swift playground to showcase their creativity and coding skills.",
+      "gradeLevels": "Ages 13+",
+      "link": "https://developer.apple.com/swift-student-challenge//"
+    },
+    {
+      "title": "Technology Student Association (TSA)",
+      "description": "Competition with 70+ STEM events ranging from software development to fashion design through regional, state, and national conferences.",
+      "gradeLevels": "6–12",
+      "link": "https://tsaweb.org/"
+    },
+    {
+      "title": "VEX Robotics Competitions",
+      "source": "VEX Robotics",
+      "description": "An international robotics competition series for students to design, build, and code robots for annual engineering games.",
+      "gradeLevels": "6–12",
+      "link": "https://www.vexrobotics.com/competition"
     }
-
-
-
-
   ],
   learn: [
     {
